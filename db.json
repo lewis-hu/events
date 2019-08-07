@@ -1,11 +1,37 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "events": [
+  {
+    "name": "Social Club AGM 2019",
+    "eventDate": "2019-06-21T00:00:00Z",
+    "backgroundImageUrl": "https://racwadccstanperacevent.blob.core.windows.net/eventsimages/agm-background.png",
+    "headerImageUrl": "https://racwadccstanperacevent.blob.core.windows.net/eventsimages/agm-header.png",
+    "footerImageUrl": "",
+    "partitionKey": "AGM2019",
+    "rowKey": "2",
+    "timestamp": "2019-07-15T21:37:11.4531707+00:00",
+    "eTag": "W/\"datetime'2019-07-15T21%3A37%3A11.4531707Z'\""
+  },
+  {
+    "name": "RAC Stars 2019",
+    "eventDate": "2019-07-15T00:00:00Z",
+    "backgroundImageUrl": "https://racwadccstanperacevent.blob.core.windows.net/eventsimages/stars-background.jpg",
+    "headerImageUrl": "https://racwadccstanperacevent.blob.core.windows.net/eventsimages/stars-header.png",
+    "footerImageUrl": "",
+    "partitionKey": "RACStars2019",
+    "rowKey": "1",
+    "timestamp": "2019-07-15T21:37:11.4481675+00:00",
+    "eTag": "W/\"datetime'2019-07-15T21%3A37%3A11.4481675Z'\""
+  },
+  {
+    "name": "Test Event 2019",
+    "eventDate": "2019-07-16T00:00:00Z",
+    "backgroundImageUrl": "https://racwadccstanperacevent.blob.core.windows.net/eventsimages/stars-background.jpg",
+    "headerImageUrl": "https://racwadccstanperacevent.blob.core.windows.net/eventsimages/stars-header.png",
+    "footerImageUrl": "",
+    "partitionKey": "TestEvent2019",
+    "rowKey": "3",
+    "timestamp": "2019-07-15T21:37:11.450169+00:00",
+    "eTag": "W/\"datetime'2019-07-15T21%3A37%3A11.450169Z'\""
   }
+]
 }
